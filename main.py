@@ -5,7 +5,7 @@ import random
 
 def connect():
     try:
-        #GET YOUR FROM TWITTER DEVELOPERS
+        #GET YOURS FROM TWITTER DEVELOPERS
         API_KEY=""
         API_SECRET_KEY=""
         ACCESS_TOKEN=""
@@ -17,7 +17,7 @@ def connect():
         api.verify_credentials()
         print("Correctly connected!")
     except:
-        print(Not connected)
+        print("Not connected")
 
 def get_winners(retweeters, n_winners=5):
     message='Hey! The Winners are:'

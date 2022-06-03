@@ -5,7 +5,7 @@ import random
 
 def connect():
     try:
-        #GET YOURS FROM TWITTER DEVELOPERS
+        #GET YOURS FROM TWITTER DEVELOPERS, & USE ENV VARIABLES, NO PLAINTEXT SECRETS ON YOUR CODE! 
         API_KEY=""
         API_SECRET_KEY=""
         ACCESS_TOKEN=""
